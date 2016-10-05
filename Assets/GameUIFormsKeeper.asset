@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f2b7047df17904eb2c0b9001b77fb9, type: 3}
+  m_Name: GameUIFormsKeeper
+  m_EditorClassIdentifier: 
+  UIForms:
+    Forms:
+    - FormID: 0
+      FormPrefab: {fileID: 196924, guid: 1da621591efce744786d8db8c1b63cb2, type: 2}
+    - FormID: 1
+      FormPrefab: {fileID: 142614, guid: ac09e0ee54f7e1341bec18459d5cc10f, type: 2}
+    - FormID: 2
+      FormPrefab: {fileID: 123122, guid: 3aabfe953c802bd42904c9bb375a7257, type: 2}

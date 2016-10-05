@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 234f0b0abbc73d94a84c3c853316d7d3, type: 3}
+  m_Name: GameSettingsKeeper
+  m_EditorClassIdentifier: 
+  GameSettings:
+    Gems:
+    - GemColor: 0
+      GemPrefab: {fileID: 179130, guid: 773bbe049853c1d46bfa140ea56df7bf, type: 2}
+    - GemColor: 1
+      GemPrefab: {fileID: 192206, guid: 11cf4b13447ea5140a0e44e5cc89d9ea, type: 2}
+    - GemColor: 2
+      GemPrefab: {fileID: 174934, guid: b63691dbc0123864ab03b27e8f68dc0a, type: 2}
+    - GemColor: 3
+      GemPrefab: {fileID: 149776, guid: 8241e216754048847be2c41402ac03d4, type: 2}
+    - GemColor: 4
+      GemPrefab: {fileID: 103296, guid: 7c08ad8971e72b74ebf78a75b32aa403, type: 2}
+    - GemColor: 5
+      GemPrefab: {fileID: 105918, guid: 7336fccf056566147a1829c711419c40, type: 2}
+    GridWidth: 6
+    GridHeight: 10
+    StartSteps: 20
+    StartTime: 60
+    BonusSteps: 2
+    BonusSeconds: 4
